@@ -1,0 +1,74 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[He et~al.(2015)He, Zhang, Ren, and Sun]{He}
+He, Kaiming, Zhang, Xiangyu, Ren, Shaoqing, and Sun, Jian.
+\newblock Deep residual learning for image recognition.
+\newblock \emph{CoRR}, abs/1512.03385, 2015.
+\newblock URL \url{http://arxiv.org/abs/1512.03385}.
+
+\bibitem[Huang et~al.(2016)Huang, Liu, and Weinberger]{Huang}
+Huang, Gao, Liu, Zhuang, and Weinberger, Kilian~Q.
+\newblock Densely connected convolutional networks.
+\newblock \emph{CoRR}, abs/1608.06993, 2016.
+\newblock URL \url{http://arxiv.org/abs/1608.06993}.
+
+\bibitem[Li et~al.(2018)Li, Xie, and Lin]{Li2}
+Li, Guanbin, Xie, Yuan, and Lin, Liang.
+\newblock Weakly supervised salient object detection using image labels.
+\newblock \emph{CoRR}, abs/1803.06503, 2018.
+\newblock URL \url{http://arxiv.org/abs/1803.06503}.
+
+\bibitem[Li et~al.(2017)Li, Wang, Han, Xue, Wei, Li, and Li]{Li}
+Li, Zhe, Wang, Chong, Han, Mei, Xue, Yuan, Wei, Wei, Li, Li{-}Jia, and Li,
+  Fei{-}Fei.
+\newblock Thoracic disease identification and localization with limited
+  supervision.
+\newblock \emph{CoRR}, abs/1711.06373, 2017.
+\newblock URL \url{http://arxiv.org/abs/1711.06373}.
+
+\bibitem[Rajpurkar et~al.(2017)Rajpurkar, Irvin, Zhu, Yang, Mehta, Duan, Ding,
+  Bagul, Langlotz, Shpanskaya, Lungren, and Ng]{Rajpurkar}
+Rajpurkar, Pranav, Irvin, Jeremy, Zhu, Kaylie, Yang, Brandon, Mehta, Hershel,
+  Duan, Tony, Ding, Daisy, Bagul, Aarti, Langlotz, Curtis, Shpanskaya, Katie,
+  Lungren, Matthew~P., and Ng, Andrew~Y.
+\newblock Chexnet: Radiologist-level pneumonia detection on chest x-rays with
+  deep learning.
+\newblock \emph{CoRR}, abs/1711.05225, 2017.
+\newblock URL \url{http://arxiv.org/abs/1711.05225}.
+
+\bibitem[Ronneberger et~al.(2015)Ronneberger, Fischer, and Brox]{Ronneberger}
+Ronneberger, Olaf, Fischer, Philipp, and Brox, Thomas.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock \emph{CoRR}, abs/1505.04597, 2015.
+\newblock URL \url{http://arxiv.org/abs/1505.04597}.
+
+\bibitem[Wang et~al.(2017)Wang, Peng, Lu, Lu, Bagheri, and Summers]{Wang}
+Wang, Xiaosong, Peng, Yifan, Lu, Le, Lu, Zhiyong, Bagheri, Mohammadhadi, and
+  Summers, Ronald~M.
+\newblock Chestx-ray8: Hospital-scale chest x-ray database and benchmarks on
+  weakly-supervised classification and localization of common thorax diseases.
+\newblock \emph{CoRR}, abs/1705.02315, 2017.
+\newblock URL \url{http://arxiv.org/abs/1705.02315}.
+
+\bibitem[Yao et~al.(2017)Yao, Poblenz, Dagunts, Covington, Bernard, and
+  Lyman]{Yao}
+Yao, Li, Poblenz, Eric, Dagunts, Dmitry, Covington, Ben, Bernard, Devon, and
+  Lyman, Kevin.
+\newblock Learning to diagnose from scratch by exploiting dependencies among
+  labels.
+\newblock \emph{CoRR}, abs/1710.10501, 2017.
+\newblock URL \url{http://arxiv.org/abs/1710.10501}.
+
+\bibitem[Zhou et~al.(2015)Zhou, Khosla, Lapedriza, Oliva, and Torralba]{Zhou}
+Zhou, Bolei, Khosla, Aditya, Lapedriza, {\`{A}}gata, Oliva, Aude, and Torralba,
+  Antonio.
+\newblock Learning deep features for discriminative localization.
+\newblock \emph{CoRR}, abs/1512.04150, 2015.
+\newblock URL \url{http://arxiv.org/abs/1512.04150}.
+
+\end{thebibliography}
