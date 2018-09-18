@@ -84,23 +84,27 @@ I experimented with different optimzers, learning rate decay schedules, and data
 The weighted cross entropy loss (W_CEL) generally plateaued after about 100,000 steps. Both Adam and Momentum were effective as long as the learning rate decay schedule and data augmentation strategy prevented overfitting.
 
 ### Integrating localization
-The chestXray14 dataset contains bounding boxes for about 1000 findings. I hypothezed that including localization in training would increase both localization and classifican accuracy since the localation is predictive.
+The chestXray14 dataset contains bounding boxes for about 1000 findings. I hypothezed that including localization in training would increase both localization and classification accuracy since the localation is predictive.
 
 <img src="https://github.com/colganwi/ChestXray/blob/master/paper/figure_6.png" width="480">
 Spatial distribution of bounding boses across different diseases. <br><br>
 
-To achieve this I weakly supervised with the bouding boxes. I did this by adding the W_CEL between the class activation map (CAM) and the bouding box to the loss function. This can be done with localization loss flag.
+To achieve this I weakly supervised with the bouding boxes. I did this by adding the W_CEL between the class activation map  and the bouding box to the loss function. This can be done with localization loss flag.
 ```
 --localization_loss=True
 ```
 This increased the AUROC and IoU values.
 
 ### Increasing resultion
-The prediciton layer for DenseNet-121 is 7x7 which was not high enough resultion for many diseases. The fix this issue I removed the 2x2 average pooling layers. This modification further increases the IoU and AUROC.
+The prediciton layer for DenseNet-121 is 7x7 which was not high enough resultion for many diseases. The fix this issue I removed the 2x2 average pooling layers. 
+```
+$ MODEL_NAME=np_densenet121
+```
+This modification further increases the IoU and AUROC. The AUROC values are on par with the state of the art achieved by [Rajpurkar, et al.](https://arxiv.org/pdf/1711.05225.pdf).
 
 img src="https://github.com/colganwi/ChestXray/blob/master/paper/figure_4.png" width="480">
 
-The localization good for some findings like Cardiomegaly but still need improvement for small findings like Mass
+The localization is good for some findings like Cardiomegaly but still need improvement for small findings like Mass
 
 img src="https://github.com/colganwi/ChestXray/blob/master/paper/figure_7.png" width="480">
 
