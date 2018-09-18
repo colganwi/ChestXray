@@ -102,11 +102,11 @@ $ MODEL_NAME=np_densenet121
 ```
 This modification further increases the IoU and AUROC. The AUROC values are on par with the state of the art achieved by [Rajpurkar, et al.](https://arxiv.org/pdf/1711.05225.pdf).
 
-img src="https://github.com/colganwi/ChestXray/blob/master/paper/figure_4.png" width="480">
+<img src="https://github.com/colganwi/ChestXray/blob/master/paper/figure_4.png" width="480">
 
 The localization is good for some findings like Cardiomegaly but still need improvement for small findings like Mass
 
-img src="https://github.com/colganwi/ChestXray/blob/master/paper/figure_7.png" width="480">
+<img src="https://github.com/colganwi/ChestXray/blob/master/paper/figure_7.png" width="480">
 
 
 
